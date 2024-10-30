@@ -1,0 +1,210 @@
+// Bali Background
+.bg-bali {
+    background-size: cover;
+    background-position: center center;
+}
+
+// Banner Bali
+.banner-bali {
+    padding: 80px 0;
+
+    // Max 767px
+    @media (max-width: $break-767) {
+        padding: 40px 0;
+    }
+    .heading-one {
+        color: $white-clr;
+        text-align: center;
+        .ptrn-txt {
+            position: relative;
+            max-width: 990px;
+            margin: auto;
+            margin-bottom: 100px;
+            z-index: 4;
+
+            // Max 767px
+            @media (max-width: $break-767) {
+                margin-bottom: 60px;
+            }
+            span {
+                font-family: "NeueHaasGroteskDisp 55";
+                font-size: 4em;
+                font-weight: normal;
+                line-height: 1;
+                text-align: center;
+                display: inline-block;
+
+                // Max 767px
+                @media (max-width: $break-767) {
+                    font-size: 1.8em;
+                }
+            }
+            img {
+                position: absolute;
+                z-index: -1;
+                &.ptrn1 {
+                    top: 20px;
+                    left: 0;
+
+                    // Max 767px
+                    @media (max-width: $break-767) {
+                        top: 30px;
+                        max-width: 50px;
+                    }
+                }
+                &.ptrn2 {
+                    top: -50px;
+                    right: 90px;
+
+                    // Max 767px
+                    @media (max-width: $break-767) {
+                        top: -30px;
+                        right: 0;
+                        max-width: 50px;
+                    }
+                }
+                &.ptrn3 {
+                    bottom: -50%;
+                    left: 30%;
+                    transform: translateX(-50%) translateY(-50%);
+
+                    // Max 767px
+                    @media (max-width: $break-767) {
+                        bottom: -30%;
+                        max-width: 80px;
+                    }
+                }
+            }
+        }
+        p {
+            font-size: 1.4em;
+            max-width: 550px;
+            margin: auto;
+            margin-bottom: 2em;
+
+            // Max 767px
+            @media (max-width: $break-767) {
+                font-size: 1em;
+            }
+        }
+        .btn-sec {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            gap: 3em;
+
+            // Max 767px
+            @media (max-width: $break-767) {
+                gap: 1.5em;
+            }
+            &:after {
+                content: "";
+                width: 2px;
+                height: 100%;
+                background-color: $white-clr;
+                position: absolute;
+                top: 0;
+                left: 50%;
+            }
+            .btn {
+                &:after {
+                    width: 100px;
+                }
+            }
+        }
+    }
+}
+
+// Bali One
+.bali-one {
+    padding: 80px 0;
+
+    // Max 767px
+    @media (max-width: $break-767) {
+        padding: 50px 0;
+    }
+    h1 {
+        text-align: center;
+        max-width: 650px;
+        margin: auto;
+        font-family: $font-55;
+        font-size: 2.4em;
+
+        // Max 767px
+        @media (max-width: $break-767) {
+            font-size: 1.5em;
+        }
+        u {
+            font-family: $font-65;
+        }
+    }
+    .disk-li {
+        text-align: center;
+        font-family: $font-65;
+        margin: 4em 0;
+
+        // Max 767px
+        @media (max-width: $break-767) {
+            margin: 2em 0;
+        }
+        li {
+            display: inline-block;
+            position: relative;
+            padding: 0 15px;
+            &:after {
+                content: "";
+                width: 8px;
+                height: 8px;
+                border-radius: 50%;
+                background-color: $black-clr;
+                position: absolute;
+                left: 0;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+    }
+    h3 {
+        display: inline-block;
+        text-decoration: underline;
+        font-family: $font-65;
+        font-size: 1.8em;
+        margin: 0;
+
+        // Max 767px
+        @media (max-width: $break-767) {
+            font-size: 1.2em;
+        }
+    }
+    .free-li {
+        margin-top: 15px;
+        font-size: 1.4em;
+
+        // Max 767px
+        @media (max-width: $break-767) {
+            font-size: 1em;
+        }
+        li {
+            padding: 0.5em 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1em;
+            a {
+                color: inherit;
+                font-family: $font-65;
+                text-decoration: underline;
+                &:hover {
+                    color: $clr-1dc95c;
+                }
+            }
+            + li {
+                border-top: 1px solid $black-clr;
+            }
+        }
+    }
+    p {
+        color: $clr-808285;
+    }
+}

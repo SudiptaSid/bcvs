@@ -1,0 +1,30 @@
+// Form
+input,
+textarea,
+select {
+    outline: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    &:focus {
+        outline: none !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+}
+
+label {
+    font-size: 0.9em;
+    line-height: 1;
+    margin-bottom: 0;
+}
+.form-control {
+    font-size: 1em;
+    line-height: 1.4;
+    padding: 8px 15px;
+    border-radius: 4px;
+    height: auto !important;
+    &:focus {
+    }
+    &::placeholder {
+    }
+}

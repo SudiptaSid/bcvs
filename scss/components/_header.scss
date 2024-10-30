@@ -1,0 +1,174 @@
+// Header
+.main-header {
+    font-family: $font-65;
+    width: 100%;
+    background-color: $white-clr;
+    position: relative;
+    transition: 0.6s all linear;
+    z-index: 9;
+    &:after {
+        content: "";
+        width: calc(100% - 30px);
+        height: 2px;
+        background-color: $clr-1dc95c;
+        position: absolute;
+        left: 15px;
+        bottom: 0;
+        transition: 0.6s all linear;
+    }
+    .navbar {
+        padding: 0;
+    }
+    .navbar-brand {
+        padding: 20px 0;
+
+        // Max 767px
+        @media (max-width: $break-767) {
+            padding: 10px 0;
+        }
+        img {
+            height: 24px;
+        }
+    }
+    .navbar-toggler {
+        padding: 10px 0;
+        border: none;
+        cursor: pointer;
+        img {
+            width: 40px;
+        }
+    }
+    .navbar-nav {
+        gap: 1rem;
+        align-items: center;
+
+        // Max 767px
+        @media (max-width: $break-767) {
+            align-items: flex-start;
+        }
+        .nav-link {
+            font-size: 1em;
+            color: $black-clr;
+            &:hover {
+                color: $clr-1dc95c;
+            }
+            img {
+                width: 40px;
+            }
+        }
+        .nav-item {
+            &:last-child {
+                &:last-child {
+                    line-height: 0;
+                }
+            }
+        }
+    }
+    .navbar-collapse {
+        // Max 767px
+        @media (max-width: $break-767) {
+            position: absolute;
+            width: calc(100% + 30px);
+            top: 52px;
+            left: -15px;
+            padding: 0 15px;
+            background-color: $white-clr;
+            box-shadow: 0px 2px 10px rgba($black-clr, 0.2);
+            z-index: 9;
+        }
+    }
+    &.sticky {
+        position: fixed;
+        box-shadow: 0px 2px 10px rgba($black-clr, 0.2);
+        &:after {
+            width: 100%;
+            left: 0;
+        }
+        .navbar-brand {
+            padding: 10px 0;
+
+            // Max 767px
+            @media (max-width: $break-767) {
+                padding: 10px 0;
+            }
+        }
+    }
+}
+
+/* --------------------------------
+Company Profile
+-------------------------------- */
+.company-profile {
+    .main-header {
+        background-color: $clr-1dc95c;
+        &:after {
+            background-color: $black-clr;
+        }
+        .navbar-nav {
+            .nav-link {
+                color: $black-clr;
+                &:hover {
+                    color: $white-clr;
+
+                    // Max 767px
+                    @media (max-width: $break-767) {
+                        color: $clr-1dc95c;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* --------------------------------
+Signup Page
+-------------------------------- */
+.signup-pg {
+    .main-header {
+        background-color: $black-clr;
+        &:after {
+            background-color: $white-clr;
+        }
+        .navbar-nav {
+            .nav-link {
+                color: $white-clr;
+
+                // Max 767px
+                @media (max-width: $break-767) {
+                    color: $black-clr;
+                }
+                &:hover {
+                    color: $clr-1dc95c;
+                }
+            }
+        }
+    }
+}
+
+/* --------------------------------
+Bali Page
+-------------------------------- */
+.bali-pg {
+    .main-header {
+        background-color: $no-clr;
+        &:after {
+            background-color: $white-clr;
+        }
+        .navbar-nav {
+            .nav-link {
+                color: $white-clr;
+
+                // Max 767px
+                @media (max-width: $break-767) {
+                    color: $black-clr;
+                }
+                &:hover {
+                    color: $clr-1dc95c;
+                }
+            }
+        }
+        &.sticky {
+            background-color: $black-clr;
+        }
+    }
+}

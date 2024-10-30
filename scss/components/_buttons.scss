@@ -1,0 +1,75 @@
+// Buttons
+.btn {
+    font-family: $font-65;
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 2;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 30px;
+    min-width: 140px;
+    position: relative;
+    box-shadow: none;
+    text-shadow: none;
+    outline: none;
+    transition: 0.5s ease-in;
+    &:hover,
+    &:focus {
+        outline: none;
+        box-shadow: none;
+        text-shadow: none;
+    }
+
+    // Max 767px
+    @media (max-width: $break-767) {
+        min-width: unset;
+        padding: 8px 30px;
+        line-height: 1.6;
+    }
+}
+
+.btn-blue {
+    color: $black-clr;
+    background-color: $clr-3addf2;
+    &:hover {
+        color: $black-clr;
+        background-color: darken($clr-3addf2, 10%);
+    }
+}
+.btn-green {
+    color: $black-clr;
+    background-color: $clr-1dc95c;
+    &:hover {
+        color: $black-clr;
+        background-color: darken($clr-1dc95c, 10%);
+    }
+}
+.btn-orange {
+    color: $black-clr;
+    background-color: $clr-ff6118;
+    &:hover {
+        color: $black-clr;
+        background-color: darken($clr-ff6118, 10%);
+    }
+}
+.btn-white-border {
+    color: $white-clr;
+    background-color: $no-clr;
+    border: 2px solid $white-clr;
+    &:hover {
+        color: $clr-1dc95c;
+        background-color: $white-clr;
+        &::after {
+            background-color: $clr-1dc95c;
+        }
+    }
+}
+.btn-white-border-two {
+    color: $black-clr;
+    background-color: $no-clr;
+    border: 2px solid $black-clr;
+    &:hover {
+        color: $white-clr;
+        background-color: $black-clr;
+    }
+}

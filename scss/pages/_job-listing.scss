@@ -1,0 +1,10 @@
+// Job list
+.job-listing-one {
+    padding: 80px 0;
+    background-color: $clr-e6e7e8;
+
+    // Max 767px
+    @media (max-width: $break-767) {
+        padding: 50px 0;
+    }
+}

@@ -1,0 +1,74 @@
+Package Report
+
+-----------------------------------------------------------------------------
+Document:
+Name: BCVS_LOGIN_EDITING.ai
+Color Mode: RGB color
+Color Profile: sRGB IEC61966-2.1
+Ruler Units: centimeters
+Artboard Dimensions: 67,6738 cm x 41,2446 cm
+Show Images in Outline Mode: OFF
+Highlight Substituted Fonts: OFF
+Highlight Substituted Glyphs: OFF
+Preserve Text Editability
+Simulate Colored Paper: OFF
+
+-----------------------------------------------------------------------------
+Spot Color Objects:
+
+-----------------------------------------------------------------------------
+Missing Fonts:NONE
+
+-----------------------------------------------------------------------------
+Protected Fonts that were not packaged:NONE
+
+-----------------------------------------------------------------------------
+Fonts:
+Neue Haas Grotesk Display Pro 55 Roman (OTF)
+Neue Haas Grotesk Display Pro 65 Medium (OTF)
+
+-----------------------------------------------------------------------------
+Embedded Fonts:
+NONE
+
+-----------------------------------------------------------------------------
+Missing Links:
+NONE
+
+-----------------------------------------------------------------------------
+Linked Images:
+
+/Users/dputri02/Documents/GARA ISOBAR/MISC/PROJECTS/BCVS/FILES/02_WEBSITES/AI/PACKAGE FORM_ABOUT/BCVS_WEBSITES REVISED 3_Folder/Links/Screen Shot 2022-08-14 at 12.11.58
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 1317K, 656 by 514 pixels
+Dimensions: 438,99 by 343,964 points 
+Resolution: 107,593 by 107,593 pixels per inch
+
+
+/Users/dputri02/Documents/GARA ISOBAR/MISC/PROJECTS/BCVS/FILES/02_WEBSITES/SOURCE/TEXTURES/2jason-leung-wmyE5IBiOmo-unsplash (1).jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 16200K, 2880 by 1920 pixels
+Dimensions: 1954,857 by 1303,238 points 
+Resolution: 106,074 by 106,074 pixels per inch
+
+
+/Users/dputri02/Documents/GARA ISOBAR/MISC/PROJECTS/BCVS/FILES/02_WEBSITES/AI/PACKAGE FORM_ABOUT/BCVS_WEBSITES REVISED 3_Folder/Links/dff03a99d39c1a84354d6f3b981b2eee.jpeg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 696K, 563 by 422 pixels
+Dimensions: 2009,848 by 1506,494 points 
+Resolution: 20,169 by 20,169 pixels per inch
+
+
+/Users/dputri02/Documents/GARA ISOBAR/MISC/PROJECTS/BCVS/FILES/02_WEBSITES/AI/PACKAGE FORM_ABOUT/BCVS_WEBSITES REVISED 3_Folder/Links/Screen Shot 2022-08-14 at 12.11.58
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 1317K, 656 by 514 pixels
+Dimensions: 648,669 by 508,256 points 
+Resolution: 72,814 by 72,814 pixels per inch

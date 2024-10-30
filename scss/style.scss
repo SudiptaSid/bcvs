@@ -1,0 +1,34 @@
+// Font
+@import "../fonts/stylesheet.css";
+
+// Animate Min
+@import "../plugins/animate.min.css";
+
+// Bootstrap
+@import "../plugins/bootstrap/scss/bootstrap.scss";
+
+// Font Awesome
+@import "../plugins/font-awesome/scss/font-awesome.scss";
+
+// Owl Carousel
+@import "../plugins/owl-carousel/scss/owl.carousel.scss";
+@import "../plugins/owl-carousel/scss/owl.theme.default.scss";
+
+// Components
+@import "components/variables";
+@import "components/reset";
+@import "components/buttons";
+@import "components/form";
+@import "components/owl-edit";
+@import "components/components";
+@import "components/heading";
+@import "components/header";
+@import "components/footer";
+
+// Pages
+@import "pages/signup";
+@import "pages/home";
+@import "pages/job-listing";
+@import "pages/profile";
+@import "pages/about";
+@import "pages/thankyou";

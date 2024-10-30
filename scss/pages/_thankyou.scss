@@ -1,0 +1,132 @@
+// Thank You
+.thankyou-pg {
+    background-image: url(../images/thankyou/bg.jpg);
+    background-size: 100% 100%;
+    padding: 50px 0;
+    min-height: 100vh;
+
+    // Max 767px
+    @media (max-width: $break-767) {
+        padding: 30px 0;
+    }
+    .logo-brand {
+        margin-bottom: 6em;
+        a {
+            display: inline-block;
+            img {
+                width: 60px;
+            }
+        }
+    }
+    .content {
+        display: inline-block;
+        max-width: 540px;
+        color: $white-clr;
+        position: relative;
+        z-index: 4;
+        img {
+            max-width: 100px;
+            position: absolute;
+            width: 100%;
+            z-index: -1;
+
+            // Max 767px
+            @media (max-width: $break-767) {
+                max-width: 60px;
+            }
+            &.ptrn1 {
+                top: -20px;
+                left: 0;
+            }
+            &.ptrn2 {
+                bottom: 140px;
+                right: -20px;
+
+                // Max 767px
+                @media (max-width: $break-767) {
+                    right: 0px;
+                }
+            }
+        }
+        h1 {
+            font-size: 3em;
+
+            // Max 767px
+            @media (max-width: $break-767) {
+                font-size: 1.6em;
+            }
+        }
+        p {
+            max-width: 470px;
+            display: block;
+            margin: auto;
+            margin-bottom: 20px;
+            font-size: 1.2em;
+
+            // Max 767px
+            @media (max-width: $break-767) {
+                font-size: 1em;
+            }
+        }
+        .btn {
+            min-width: 200px;
+        }
+    }
+}
+
+// Landing Page
+.landing-pg {
+    .logo-sec {
+        padding: 2em 0;
+
+        // Max 767px
+        @media (max-width: $break-767) {
+            padding: 1em 0;
+        }
+        a {
+            img {
+                height: 24px;
+            }
+        }
+    }
+    .banner-one {
+        border-radius: 30px 30px 0 0;
+        .heading-one {
+            position: relative;
+            padding-top: 5em;
+            z-index: 4;
+            .clipart {
+                position: absolute;
+                top: -20px;
+                left: 50%;
+                transform: translateX(-50%);
+                z-index: -1;
+                width: 100%;
+                max-width: 180px;
+
+                // Max 767px
+                @media (max-width: $break-767) {
+                    top: 30%;
+                    max-width: 60px;
+                }
+            }
+            .joinnow {
+                position: absolute;
+                top: 65%;
+                left: 50%;
+                transform: translateX(-50%) translateY(-50%);
+                width: 100%;
+                max-width: 150px;
+
+                // Max 767px
+                @media (max-width: $break-767) {
+                    top: 75%;
+                    max-width: 100px;
+                }
+            }
+        }
+    }
+    .newsletter-two {
+        margin-top: -30px;
+    }
+}

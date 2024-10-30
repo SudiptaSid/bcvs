@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'NeueHaasGroteskDisp 55';
+    src: url('NHaasGroteskDSPro-55Rg.woff2') format('woff2'),
+        url('NHaasGroteskDSPro-55Rg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NeueHaasGroteskDisp 65';
+    src: url('NHaasGroteskDSPro-65Md.woff2') format('woff2'),
+        url('NHaasGroteskDSPro-65Md.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NeueHaasGroteskDisp 76';
+    src: url('NHaasGroteskDSPro-76BdIt.woff2') format('woff2'),
+        url('NHaasGroteskDSPro-76BdIt.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NeueHaasGroteskDisp 95';
+    src: url('NHaasGroteskDSPro-95Blk.woff2') format('woff2'),
+        url('NHaasGroteskDSPro-95Blk.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Knockout';
+    src: url('Knockout-HTF50-Welterweight.woff2') format('woff2'),
+        url('Knockout-HTF50-Welterweight.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}

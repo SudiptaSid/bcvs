@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 46.16 46.16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-family: NHaasGroteskDSPro-65Md, 'Neue Haas Grotesk Display Pro';
+        font-size: 30.72px;
+        font-weight: 500;
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <circle class="cls-2" cx="23.08" cy="23.08" r="21.58"/>
+      <text class="cls-1" transform="translate(14.96 31.71)"><tspan x="0" y="0">x</tspan></text>
+    </g>
+  </g>
+</svg>
